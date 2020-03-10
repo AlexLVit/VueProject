@@ -1,13 +1,10 @@
 <template>
   <div id="app">
-    
       <router-view @authenticated="setAuthenticated"/>
   </div>
-  
 </template>
 
 <script>
-
 export default {
   name:"App",
   data(){
@@ -28,9 +25,3 @@ export default {
   }
 };
 </script>
-
-<style scoped>
-  main{
-    background-color: red;
-  }
-</style>

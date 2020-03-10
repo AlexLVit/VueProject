@@ -4,13 +4,7 @@ import Login from "./components/Login.vue";
 export default [
 
     {
-    path: '/',
-    redirect: {
-        name: "Login",
-    }
-    },
-    {
-      path: "/mainpage",
+      path: "/",
       name: "MainPage",
       component: MainPage
     },
